@@ -4,7 +4,7 @@
 
 import Foundation
 
-extension URLResponse {
+public extension URLResponse {
 	func isStatusValid() -> Bool {
 		guard
 			let response = self as? HTTPURLResponse
